@@ -11,4 +11,6 @@ mongoose.connect('mongodb://localhost:27017/usersAuth',{
     useNewUrlParser: true,
     useUnifiedTopology: true 
 })
+
+//connect server 
 app.listen(3001, () => { console.log("server is running") })
