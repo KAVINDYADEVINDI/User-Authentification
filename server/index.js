@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose=require('mongoose');
-//
+// create variable
 const app = express();
 
 app.use(express.json());
