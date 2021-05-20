@@ -6,6 +6,7 @@ const app = express();
 
 app.use(express.json());
 
+//connect mongodb
 mongoose.connect('mongodb://localhost:27017/usersAuth',{
     useNewUrlParser: true,
     useUnifiedTopology: true 
